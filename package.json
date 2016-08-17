@@ -1,11 +1,29 @@
 {
-  "name": "socket-chat-example",
-  "version": "0.0.1",
-  "description": "my first socket.io app",
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "ChattingApp",
   "main": "index.js",
   "dependencies": {
     "express": "^4.10.2",
-    "redis": "^2.6.1",
     "socket.io": "^1.4.6"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paras885/ChatApp.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Paras",
+  "license": " MIT",
+  "bugs": {
+    "url": "https://github.com/paras885/ChatApp/issues"
+  },
+  "homepage": "https://github.com/paras885/ChatApp#readme"
 }
