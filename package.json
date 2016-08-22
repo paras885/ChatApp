@@ -4,8 +4,8 @@
   "description": "ChattingApp",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.10.2",
-    "socket.io": "^1.4.6"
+    "express": "4.14.0",
+    "socket.io": "1.4.8"
   },
   "devDependencies": {},
   "scripts": {
